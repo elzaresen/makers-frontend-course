@@ -60,20 +60,20 @@ section{
 }
 
 .row>label{
-  color: white;
+  color: black;
   font-size: 16px;
   display: block;
   margin-bottom: 10px;
 }
 
 .row>input{
-  color: white;
+  color: black;
   padding: 0 0 10px;
   font-size: 22px;
   width: 100%;
   background-color: transparent;
   border: none;
-  border-bottom: #fff 2px solid;
+  border-bottom: black 2px solid;
   display: flex;
   align-items: center;
   outline: none;

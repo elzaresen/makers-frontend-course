@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ClassicComponent from './components/classic';
-import FunctionalComponent from './components/functional';
+import Homework from './components/homework';
 import {useWidth} from './components/functional';
 
 function App() {
@@ -13,10 +12,8 @@ function App() {
 				<img src={ logo } className='App-logo' alt='logo'/>
 			</header>
 			<main>
-				<ClassicComponent/>
-				<FunctionalComponent/>
+				<Homework/>
 			</main>
-			width: {width}
 		</>
 
 	);
