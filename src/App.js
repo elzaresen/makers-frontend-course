@@ -1,26 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ClassicComponent from './components/classic';
+import FunctionalComponent from './components/functional';
+import {useWidth} from './components/functional';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const width = useWidth();
+	return (
+		<>
+			<header className='App-header'>
+				<img src={ logo } className='App-logo' alt='logo'/>
+			</header>
+			<main>
+				<ClassicComponent/>
+				<FunctionalComponent/>
+			</main>
+			width: {width}
+		</>
+
+	);
 }
 
 export default App;

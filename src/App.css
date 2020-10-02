@@ -1,9 +1,5 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  height: 40vmin;
+  height: 60px;
   pointer-events: none;
 }
 
@@ -15,17 +11,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +27,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section{
+  margin: 0 15px;
+  max-width: 640px;
+  width: 100%;
+  background-color: #319e9e;
+  padding: 1em;
+}
+
+.row{
+  margin-bottom: 2em;
+}
+
+.row:last-child{
+  margin-bottom: 0;
+}
+
+.row>label{
+  color: white;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.row>input{
+  color: white;
+  padding: 0 0 10px;
+  font-size: 22px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: #fff 2px solid;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+section.classic {
+  background-color: #9e8331;
+}
+
+section.classic label {
+  text-align: center;
+}
+
+section.classic input {
+  text-align: center;
+}
+
+section.classic * {
+  font-family: "Times New Roman";
+}
+
+section.modern {
+  background-color: #9e3131;
+}
+
+section.modern label {
+  text-align: left;
+}
+
+section.modern input {
+  text-align: left;
+}
+
+section.modern * {
+  font-family: monospace;
 }
