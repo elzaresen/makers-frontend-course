@@ -110,3 +110,60 @@ section.modern input {
 section.modern * {
   font-family: monospace;
 }
+
+.container{
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.todo__wrapper{
+  width: 100%;
+}
+
+.todo__input{
+  width: 100%;
+  font-size: 22px;
+  border: none;
+  border-bottom: 1px black solid;
+  outline: none;
+  padding: 10px 5px;
+}
+
+.todo__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo__item{
+  padding: 15px 0;
+  color: #000;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.todo__button{
+  background-color: #319e9e;
+  color: white;
+  font-size: 28px;
+  border: none;
+  padding: 4px 10px;
+  margin-left: 15px;
+}
+
+.todo__button--toggle{
+  background-color: #319e9e;
+  color: white;
+}
+
+.todo__button--delete{
+  background-color: #9e3131;
+  color: white;
+}
+
+.todo__item--completed{
+  color: #aaa;
+}

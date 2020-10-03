@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Row from '../layoutComponents/Row';
+import Row from '../../layoutComponents/Row';
 
 const Homework = () => {
 	const [total, setTotal] = useState(0);

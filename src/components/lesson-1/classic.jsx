@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Row from '../layoutComponents/Row';
-import { ThemeContext } from '../context';
+import Row from '../../layoutComponents/Row';
+import { ThemeContext } from '../../context';
 
 class ClassicComponent extends Component {
 	constructor(props) {

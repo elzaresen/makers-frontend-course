@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
-import Row from '../layoutComponents/Row';
-import { ThemeContext } from '../context/index2';
+import Row from '../../layoutComponents/Row';
+import { ThemeContext } from '../../context/index2';
 
 const FunctionalComponent = () => {
 	const name = useInput('Peter');
