@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Component from './components/lesson-1/homework';
+import Component from './components/lesson-2/UseRef';
 
 function App() {
 	return (
@@ -13,7 +13,6 @@ function App() {
 				<Component/>
 			</main>
 		</>
-
 	);
 }
 
